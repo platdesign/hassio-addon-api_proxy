@@ -1,8 +1,8 @@
 {
-	"name": "Auth api",
-	"version": "1.0.5",
+	"name": "Api Proxy",
+	"version": "1.0.0",
 	"slug": "pd_auth_api",
-	"description": "Multi token based auth",
+	"description": "Multi auth api proxy",
 	"startup": "services",
 	"boot": "auto",
 	"options": {
