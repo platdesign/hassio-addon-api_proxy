@@ -1,10 +1,11 @@
 {
-	"name": "Api Proxy",
+	"name": "Api proxy",
 	"version": "1.0.0",
-	"slug": "pd_auth_api",
+	"slug": "pd_api_proxy",
 	"description": "Multi auth api proxy",
 	"startup": "services",
 	"boot": "auto",
+	"url": "https://github.com/platdesign/pd-hassio-addon-api_proxy",
 	"options": {
 		"apps": []
 	},

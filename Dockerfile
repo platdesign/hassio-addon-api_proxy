@@ -3,6 +3,8 @@ FROM mhart/alpine-node
 # Create app directory
 WORKDIR /usr/src/app
 
+
+
 # Install app dependencies
 ADD ./app/package.json .
 
