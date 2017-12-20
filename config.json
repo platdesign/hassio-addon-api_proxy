@@ -1,0 +1,20 @@
+{
+	"name": "Auth api",
+	"version": "1.0.5",
+	"slug": "pd_auth_api",
+	"description": "Multi token based auth",
+	"startup": "services",
+	"boot": "auto",
+	"options": {
+		"apps": []
+	},
+	"schema": {
+		"apps": [
+			{ "name": "str", "token": "str" }
+		]
+	},
+	"homeassistant_api": true,
+	"ports": {
+		"8080/tcp": 5001
+	}
+}
