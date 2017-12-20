@@ -1,0 +1,25 @@
+{
+  "name": "ha-secure-api",
+  "description": "A project by platdesign.de",
+  "author": [{
+    "name": "Christian Blaschke",
+    "email": "mail@platdesign.de",
+    "url": "https://github.com/platdesign"
+  }],
+  "version": "0.0.0",
+  "dependencies": {
+    "config": "^1.28.1",
+    "h2o2": "^7.0.1",
+    "hapi": "^17.1.1",
+    "hapi-auth-basic": "^5.0.0",
+    "hapi-auth-bearer-token": "^6.0.1"
+  },
+  "repository": "",
+  "scripts": {
+    "start": "node .",
+    "dev": "NODE_ENV=development nodemon ."
+  },
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  }
+}
